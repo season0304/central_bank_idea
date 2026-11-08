@@ -6,7 +6,8 @@ models/
 runs/
 dist/
 data/
-paper/
+# The full-size original stays local; its compressed PDF is versioned.
+paper/Words That Unite The World A Unified Framework.pdf
 .cache/
 .pytest_cache/
 .ruff_cache/

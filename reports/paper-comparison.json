@@ -1,0 +1,459 @@
+{
+  "method": "Existing saved classifier predictions only; no retraining or parameter search. Bank mean averages per-bank support-weighted F1 equally.",
+  "seed": 5768,
+  "results": {
+    "time_label": {
+      "rows": 3748,
+      "accuracy": 0.8657950758934021,
+      "macro_f1": 0.8638232946395874,
+      "weighted_f1_global": 0.8656595627297204,
+      "mean_bank_weighted_f1": 0.8651568752451813,
+      "banks": {
+        "bank_negara_malaysia": {
+          "rows": 151,
+          "weighted_f1": 0.8877820025216665,
+          "macro_f1": 0.8844994902610779
+        },
+        "bank_of_canada": {
+          "rows": 161,
+          "weighted_f1": 0.8878071604308134,
+          "macro_f1": 0.8872197866439819
+        },
+        "bank_of_colombia": {
+          "rows": 135,
+          "weighted_f1": 0.8647988531324599,
+          "macro_f1": 0.8545258641242981
+        },
+        "bank_of_england": {
+          "rows": 157,
+          "weighted_f1": 0.7788110329846668,
+          "macro_f1": 0.7445731163024902
+        },
+        "bank_of_israel": {
+          "rows": 129,
+          "weighted_f1": 0.8432538292204687,
+          "macro_f1": 0.8367088437080383
+        },
+        "bank_of_japan": {
+          "rows": 140,
+          "weighted_f1": 0.7861607049192701,
+          "macro_f1": 0.78125
+        },
+        "bank_of_korea": {
+          "rows": 168,
+          "weighted_f1": 0.8873865348952157,
+          "macro_f1": 0.8857347369194031
+        },
+        "bank_of_mexico": {
+          "rows": 143,
+          "weighted_f1": 0.8535503136528122,
+          "macro_f1": 0.852685809135437
+        },
+        "bank_of_phillipines": {
+          "rows": 153,
+          "weighted_f1": 0.8967804920439627,
+          "macro_f1": 0.8740741014480591
+        },
+        "bank_of_thailand": {
+          "rows": 160,
+          "weighted_f1": 0.7587000161409378,
+          "macro_f1": 0.7440000176429749
+        },
+        "brazil_copom": {
+          "rows": 144,
+          "weighted_f1": 0.8061632133192487,
+          "macro_f1": 0.8031250238418579
+        },
+        "central_bank_of_chile": {
+          "rows": 152,
+          "weighted_f1": 0.8308677955677635,
+          "macro_f1": 0.8039519190788269
+        },
+        "central_bank_of_egypt": {
+          "rows": 151,
+          "weighted_f1": 0.9410965643971172,
+          "macro_f1": 0.9240824580192566
+        },
+        "central_bank_of_russia": {
+          "rows": 176,
+          "weighted_f1": 0.869751088321209,
+          "macro_f1": 0.8645565509796143
+        },
+        "central_bank_republic_of_turkey": {
+          "rows": 146,
+          "weighted_f1": 0.9452054623055132,
+          "macro_f1": 0.926262617111206
+        },
+        "central_bank_taiwan": {
+          "rows": 155,
+          "weighted_f1": 0.8967741954711176,
+          "macro_f1": 0.8965632319450378
+        },
+        "central_reserve_bank_peru": {
+          "rows": 142,
+          "weighted_f1": 0.8474247774607698,
+          "macro_f1": 0.8085784912109375
+        },
+        "ecb": {
+          "rows": 128,
+          "weighted_f1": 0.7388203195296228,
+          "macro_f1": 0.7282377481460571
+        },
+        "fomc": {
+          "rows": 137,
+          "weighted_f1": 0.8760334979878724,
+          "macro_f1": 0.8737326860427856
+        },
+        "monetary_authority_singapore": {
+          "rows": 135,
+          "weighted_f1": 0.9553030133247375,
+          "macro_f1": 0.9539772272109985
+        },
+        "national_bank_poland": {
+          "rows": 149,
+          "weighted_f1": 0.8862690293548892,
+          "macro_f1": 0.8848898410797119
+        },
+        "peoples_bank_of_china": {
+          "rows": 145,
+          "weighted_f1": 0.9174442472129033,
+          "macro_f1": 0.9147058725357056
+        },
+        "rbi": {
+          "rows": 173,
+          "weighted_f1": 0.871837499858327,
+          "macro_f1": 0.8705441951751709
+        },
+        "reserve_bank_australia": {
+          "rows": 155,
+          "weighted_f1": 0.9230054416964131,
+          "macro_f1": 0.9104735851287842
+        },
+        "swiss_national_bank": {
+          "rows": 163,
+          "weighted_f1": 0.8778947953797557,
+          "macro_f1": 0.872696042060852
+        }
+      }
+    },
+    "certain_label": {
+      "rows": 3749,
+      "accuracy": 0.8287543058395386,
+      "macro_f1": 0.754584550857544,
+      "weighted_f1_global": 0.8281065735476085,
+      "mean_bank_weighted_f1": 0.8280904737774003,
+      "banks": {
+        "bank_negara_malaysia": {
+          "rows": 151,
+          "weighted_f1": 0.8688873099964975,
+          "macro_f1": 0.8504951000213623
+        },
+        "bank_of_canada": {
+          "rows": 161,
+          "weighted_f1": 0.8803190848101741,
+          "macro_f1": 0.8771337866783142
+        },
+        "bank_of_colombia": {
+          "rows": 135,
+          "weighted_f1": 0.8880532163160818,
+          "macro_f1": 0.8186945915222168
+        },
+        "bank_of_england": {
+          "rows": 157,
+          "weighted_f1": 0.6144213122167405,
+          "macro_f1": 0.5981171131134033
+        },
+        "bank_of_israel": {
+          "rows": 129,
+          "weighted_f1": 0.6210292161897172,
+          "macro_f1": 0.549088180065155
+        },
+        "bank_of_japan": {
+          "rows": 140,
+          "weighted_f1": 0.8015259138175419,
+          "macro_f1": 0.7263966798782349
+        },
+        "bank_of_korea": {
+          "rows": 168,
+          "weighted_f1": 0.8110967874526978,
+          "macro_f1": 0.7418859004974365
+        },
+        "bank_of_mexico": {
+          "rows": 143,
+          "weighted_f1": 0.729670368708097,
+          "macro_f1": 0.6857143044471741
+        },
+        "bank_of_phillipines": {
+          "rows": 153,
+          "weighted_f1": 0.885009881328134,
+          "macro_f1": 0.7295757532119751
+        },
+        "bank_of_thailand": {
+          "rows": 160,
+          "weighted_f1": 0.6800022471696139,
+          "macro_f1": 0.5851761102676392
+        },
+        "brazil_copom": {
+          "rows": 144,
+          "weighted_f1": 0.7642857233683268,
+          "macro_f1": 0.6647619009017944
+        },
+        "central_bank_of_chile": {
+          "rows": 152,
+          "weighted_f1": 0.8713889867067337,
+          "macro_f1": 0.6992480754852295
+        },
+        "central_bank_of_egypt": {
+          "rows": 151,
+          "weighted_f1": 0.9052546559185382,
+          "macro_f1": 0.7139068245887756
+        },
+        "central_bank_of_russia": {
+          "rows": 176,
+          "weighted_f1": 0.8883572573011572,
+          "macro_f1": 0.7587718963623047
+        },
+        "central_bank_republic_of_turkey": {
+          "rows": 146,
+          "weighted_f1": 0.9490084464419378,
+          "macro_f1": 0.8311161994934082
+        },
+        "central_bank_taiwan": {
+          "rows": 155,
+          "weighted_f1": 0.7610127968172873,
+          "macro_f1": 0.7311827540397644
+        },
+        "central_reserve_bank_peru": {
+          "rows": 143,
+          "weighted_f1": 0.8829381064726756,
+          "macro_f1": 0.5699248313903809
+        },
+        "ecb": {
+          "rows": 128,
+          "weighted_f1": 0.9293502569198608,
+          "macro_f1": 0.8575879335403442
+        },
+        "fomc": {
+          "rows": 137,
+          "weighted_f1": 0.8066297491101453,
+          "macro_f1": 0.7598831653594971
+        },
+        "monetary_authority_singapore": {
+          "rows": 135,
+          "weighted_f1": 0.8313419995484529,
+          "macro_f1": 0.7999484539031982
+        },
+        "national_bank_poland": {
+          "rows": 149,
+          "weighted_f1": 0.8573603594063113,
+          "macro_f1": 0.8427400588989258
+        },
+        "peoples_bank_of_china": {
+          "rows": 145,
+          "weighted_f1": 0.9327954567711929,
+          "macro_f1": 0.7188106179237366
+        },
+        "rbi": {
+          "rows": 173,
+          "weighted_f1": 0.866265795478931,
+          "macro_f1": 0.7307231426239014
+        },
+        "reserve_bank_australia": {
+          "rows": 155,
+          "weighted_f1": 0.8644392990296886,
+          "macro_f1": 0.8154761791229248
+        },
+        "swiss_national_bank": {
+          "rows": 163,
+          "weighted_f1": 0.8118176171384706,
+          "macro_f1": 0.7604418992996216
+        }
+      }
+    },
+    "stance_label": {
+      "rows": 3749,
+      "accuracy": 0.6436383128166199,
+      "macro_f1": 0.6368690133094788,
+      "weighted_f1_global": 0.6430461858234013,
+      "mean_bank_weighted_f1": 0.6431129742502515,
+      "banks": {
+        "bank_negara_malaysia": {
+          "rows": 151,
+          "weighted_f1": 0.5618849775649064,
+          "macro_f1": 0.6622400283813477
+        },
+        "bank_of_canada": {
+          "rows": 161,
+          "weighted_f1": 0.684089145675209,
+          "macro_f1": 0.5668213963508606
+        },
+        "bank_of_colombia": {
+          "rows": 135,
+          "weighted_f1": 0.5578445734801116,
+          "macro_f1": 0.47461509704589844
+        },
+        "bank_of_england": {
+          "rows": 157,
+          "weighted_f1": 0.6814607484325482,
+          "macro_f1": 0.6858570575714111
+        },
+        "bank_of_israel": {
+          "rows": 129,
+          "weighted_f1": 0.5921602018119753,
+          "macro_f1": 0.6280708312988281
+        },
+        "bank_of_japan": {
+          "rows": 140,
+          "weighted_f1": 0.6531501169715609,
+          "macro_f1": 0.6171359419822693
+        },
+        "bank_of_korea": {
+          "rows": 168,
+          "weighted_f1": 0.5971795455330894,
+          "macro_f1": 0.502215564250946
+        },
+        "bank_of_mexico": {
+          "rows": 143,
+          "weighted_f1": 0.6858649558120674,
+          "macro_f1": 0.6335788369178772
+        },
+        "bank_of_phillipines": {
+          "rows": 153,
+          "weighted_f1": 0.5508187117140277,
+          "macro_f1": 0.5414356589317322
+        },
+        "bank_of_thailand": {
+          "rows": 160,
+          "weighted_f1": 0.6460113042965532,
+          "macro_f1": 0.5699763298034668
+        },
+        "brazil_copom": {
+          "rows": 144,
+          "weighted_f1": 0.5913374722003937,
+          "macro_f1": 0.484790563583374
+        },
+        "central_bank_of_chile": {
+          "rows": 152,
+          "weighted_f1": 0.7109152984462286,
+          "macro_f1": 0.6733367443084717
+        },
+        "central_bank_of_egypt": {
+          "rows": 151,
+          "weighted_f1": 0.7581842212092798,
+          "macro_f1": 0.6628131866455078
+        },
+        "central_bank_of_russia": {
+          "rows": 176,
+          "weighted_f1": 0.6962520842525092,
+          "macro_f1": 0.5355442762374878
+        },
+        "central_bank_republic_of_turkey": {
+          "rows": 146,
+          "weighted_f1": 0.6783318021526076,
+          "macro_f1": 0.6292804479598999
+        },
+        "central_bank_taiwan": {
+          "rows": 155,
+          "weighted_f1": 0.5457525657069299,
+          "macro_f1": 0.533694326877594
+        },
+        "central_reserve_bank_peru": {
+          "rows": 143,
+          "weighted_f1": 0.6818785567383666,
+          "macro_f1": 0.708681583404541
+        },
+        "ecb": {
+          "rows": 128,
+          "weighted_f1": 0.6951552149839699,
+          "macro_f1": 0.7643969655036926
+        },
+        "fomc": {
+          "rows": 137,
+          "weighted_f1": 0.6154703946009169,
+          "macro_f1": 0.6641837358474731
+        },
+        "monetary_authority_singapore": {
+          "rows": 135,
+          "weighted_f1": 0.6261124045760543,
+          "macro_f1": 0.571050226688385
+        },
+        "national_bank_poland": {
+          "rows": 149,
+          "weighted_f1": 0.7136449997857113,
+          "macro_f1": 0.5186463594436646
+        },
+        "peoples_bank_of_china": {
+          "rows": 145,
+          "weighted_f1": 0.7573604961921429,
+          "macro_f1": 0.7185247540473938
+        },
+        "rbi": {
+          "rows": 173,
+          "weighted_f1": 0.5298996142224769,
+          "macro_f1": 0.551318347454071
+        },
+        "reserve_bank_australia": {
+          "rows": 155,
+          "weighted_f1": 0.675091915745889,
+          "macro_f1": 0.5074042081832886
+        },
+        "swiss_national_bank": {
+          "rows": 163,
+          "weighted_f1": 0.5919730341507613,
+          "macro_f1": 0.5454392433166504
+        }
+      }
+    }
+  },
+  "paper": {
+    "title": "Words That Unite The World: A Unified Framework for Deciphering Central Bank Communications",
+    "url": "https://arxiv.org/html/2505.17048v2",
+    "metric": "Mean across 25 banks of support-weighted F1, with paper results aggregated over three random seeds",
+    "seeds": [
+      5768,
+      78516,
+      944601
+    ],
+    "training": "Cross-entropy classification fine-tuning, maximum 50 epochs with validation-based early stopping",
+    "best_reported": {
+      "time_label": {
+        "model": "RoBERTa-Base",
+        "score": 0.868,
+        "table": 12
+      },
+      "certain_label": {
+        "model": "RoBERTa-Large",
+        "score": 0.846,
+        "table": 13
+      },
+      "stance_label": {
+        "model": "RoBERTa-Large",
+        "score": 0.74,
+        "table": 1
+      }
+    }
+  },
+  "comparison": {
+    "time_label": {
+      "ours_mean_bank_weighted_f1": 0.8651568752451813,
+      "paper_best_mean_bank_weighted_f1": 0.868,
+      "ours_minus_paper": -0.0028431247548187377
+    },
+    "certain_label": {
+      "ours_mean_bank_weighted_f1": 0.8280904737774003,
+      "paper_best_mean_bank_weighted_f1": 0.846,
+      "ours_minus_paper": -0.01790952622259967
+    },
+    "stance_label": {
+      "ours_mean_bank_weighted_f1": 0.6431129742502515,
+      "paper_best_mean_bank_weighted_f1": 0.74,
+      "ours_minus_paper": -0.0968870257497485
+    }
+  },
+  "limitations": [
+    "Approximate comparison: our seed is only 5768; paper aggregates three seeds.",
+    "Our task-specific preprocessing excludes duplicate and conflicting-label sentences, so retained evaluation rows differ slightly.",
+    "Different encoders and training objectives. Our chosen certain/stance encoder is the source GTE checkpoint at step 0; only its linear classifier is trained.",
+    "A numerical difference is not a significance test or a controlled reproduction."
+  ]
+}
